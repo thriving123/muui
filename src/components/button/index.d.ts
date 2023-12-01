@@ -1,4 +1,5 @@
 export declare type MuBtnType =
+  | "default"
   | "primary"
   | "success"
   | "warning"

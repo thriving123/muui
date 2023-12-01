@@ -1,0 +1,33 @@
+.mu-alert{
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  position: relative;
+  margin-bottom: 1rem;
+  position: relative;
+  @each $key, $color in $colors {
+    &-#{$key}{
+      color: #fff;
+      background-color: lighten($color, 12%);
+      border-color: lighten($color, 12%);
+    }
+  }
+}
+.mu-alert-content{
+  display: flex;
+}
+.mu-alert-icon{
+  display: inline-block;
+  width: 1rem;
+  margin-right: 1.25rem;
+}
+.mu-alert-close{
+  position: absolute;
+  right: 1.5rem;
+  top: 1.25rem;
+  cursor: pointer;
+}
+.mu-content-closable{
+  padding-right: 2.5rem;
+}
+

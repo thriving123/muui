@@ -45,6 +45,19 @@
       <mu-button type="purple">Hello World</mu-button>
     </mu-space>
   </div>
+  <div>
+    <mu-alert icon="greate" type="primary">Hello World</mu-alert>
+    <mu-alert icon="greate" type="success">Hello World</mu-alert>
+    <mu-alert icon="greate" type="warning">Hello World</mu-alert>
+    <mu-alert icon="greate" type="danger" closable>Hello World</mu-alert>
+    <mu-alert icon="greate" type="info" closable>Hello World</mu-alert>
+    <mu-alert icon="greate" type="purple" closable
+      >Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello
+      WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello
+      WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello
+      WorldHello WorldHello WorldHello World</mu-alert
+    >
+  </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 

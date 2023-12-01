@@ -13,5 +13,5 @@ export declare type MuIcon = {
   name: MuIconName;
   color?: MuIconColor;
   size?: MuIconSize;
-  loading: boolean;
+  loading?: boolean;
 };
