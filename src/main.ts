@@ -1,0 +1,14 @@
+import { createApp } from "vue";
+import "./style.css";
+import App from "./App.vue";
+import "virtual:svg-icons-register";
+import { MuButton } from "./components/button";
+import { MuIcon } from "./components/icon";
+import { MuButtonGroup } from "./components/buttonGroup";
+import { MuSpace } from "./components/space";
+const app = createApp(App);
+app.use(MuIcon);
+app.use(MuButton);
+app.use(MuButtonGroup);
+app.use(MuSpace);
+app.mount("#app");

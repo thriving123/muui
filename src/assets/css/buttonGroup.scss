@@ -1,0 +1,18 @@
+// 设置按钮组样式
+.mu-button-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+// 只保留第一个按钮的左边的样式和最后一个按钮右边的样式
+.mu-button-group > button.mu-button:not(:last-child) {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.mu-button-group > button.mu-button:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+}
